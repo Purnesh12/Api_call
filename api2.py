@@ -1,9 +1,9 @@
 import requests
 
-# Replace with your actual access token received earlier
+
 access_token = "eyJhbGciOiJIUzI1NiJ9.eyJyZWdObyI6IlJFRzEyMzQ3IiwibmFtZSI6IkpvaG4gRG9lIiwiZW1haWwiOiJqb2huQGV4YW1wbGUuY29tIiwic3ViIjoid2ViaG9vay11c2VyIiwiaWF0IjoxNzQ2OTYxMjIzLCJleHAiOjE3NDY5NjIxMjN9.wp2ktnzkYYznzU-hqNi-YVtXwErFX80mlbpbGu5f6KY"
 
-# Final SQL Query (copy-paste as one line string)
+
 final_sql_query = """
 SELECT 
     p.AMOUNT AS SALARY,
